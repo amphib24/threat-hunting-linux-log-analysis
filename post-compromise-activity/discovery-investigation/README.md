@@ -59,7 +59,7 @@
 
 ## Conclusion
 
-&nbsp;&nbsp;&nbsp Investigation into the process tree associated with the discovery command (hostname) indicates the activity originated from a legitimate script used by the IT support team. Based on the evidence reviewed, the alert is assessed as a false positive, and the incident can be closed with no further action required.
+&nbsp;&nbsp;&nbsp; Investigation into the process tree associated with the discovery command (hostname) indicates the activity originated from a legitimate script used by the IT support team. Based on the evidence reviewed, the alert is assessed as a false positive, and the incident can be closed with no further action required.
 
 ## Process Tree
 
