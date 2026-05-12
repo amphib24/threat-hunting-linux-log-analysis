@@ -17,3 +17,11 @@
 #### Technical Write-Ups
 
 <a href="https://github.com/amphib24/threat-hunting-linux-log-analysis/tree/main/initial-access-investigations/detecting-ssh-attacks">SSH Brute Force</a>
+
+### Post Compromise
+
+&nbsp;&nbsp;&nbsp; This section contains investigations into initial access activity on Linux hosts and servers. These investigations focus on analyzing a suspected malicious discovery command and cryptominer activity.
+
+#### Technical Write-Ups
+
+<a href = "https://github.com/amphib24/threat-hunting-linux-log-analysis/tree/main/post-compromise-activity/discovery-investigation">Discovery Command</a>
