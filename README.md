@@ -1,6 +1,8 @@
 # Linux Threat Hunting and Log Analysis
 &nbsp;&nbsp;&nbsp; This repository is a collection of SOC-level threat detection investigations utilizing Linux log analysis. The investigations follow the labs from TryHackMe's SOC 1 Linux Threat Detection rooms, and are structured to simulate real-world SOC workflows. The investigations are broken into three main categories: initial access, post-compromise activities, and persistence mechanisms. The purpose of this repository is to demonstrate a SOC analyst's approach to investigating threat activity on Linux hosts using native logging tools.
 
+# Repository Status
+  Work in progress - continually updated as I complete write-ups
 ## Demonstrated Skills
 
  - Linux authentication log analysis (/var/log/auth.log)
