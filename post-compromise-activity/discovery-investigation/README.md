@@ -20,7 +20,7 @@
 
 ### Identify Parent Process
 
-####Filter Used:
+#### Filter Used:
 
 -	ausearch -i --pid 3771
 
@@ -53,7 +53,7 @@
 
 #### Analyst Observation:
 
--	Review of the script contents confirms the script is used by the IT support team to collect system load data for debugging purposes. The script includes a contact email (greg@tryhackme.thm) for reporting any security concerns, which further validates its legitimacy. 
+-	Review of the script contents confirms the script is used by the IT support team to collect system load data for debugging purposes. The script includes a contact email (greg@tryhackme[.]thm) for reporting any security concerns, which further validates its legitimacy. 
 
 <img width="817" height="518" alt="script contents" src="https://github.com/user-attachments/assets/58a656fd-79e1-412d-a685-53e13cb02482" />
 
