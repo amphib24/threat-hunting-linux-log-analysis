@@ -5,7 +5,7 @@
   Work in progress - continually updated as I complete write-ups
 ## Demonstrated Skills
 
- - Linux authentication log analysis (/var/log/auth.log)
+ - Linux authentication log analysis `/var/log/auth.log`
  - Log filtering and correlation using command-line tools
  - Extraction and documentation of indicators of compromise (IOCs) from system logs
  - Privilege escalation analysis via sudo and account management activity
