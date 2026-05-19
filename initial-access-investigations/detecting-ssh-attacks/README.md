@@ -14,17 +14,17 @@
 
 #### Filter Used:
 
--	cat /var/log/auth.log | grep sshd | grep -E “Accepted|Failed”
+-	`cat /var/log/auth.log | grep sshd | grep -E “Accepted|Failed”`
 
 #### Analyst Observation 1:
 
--	Initial investigation identified four accounts (root, sol, roy, user) involved in activity consistent with brute-force attacks conducted via SSH login attempts. The behavior is indicative of an automated attack originating from randomized IP addresses. The activity started on 2025-08-21 at 16:34:04. 
+-	Initial investigation identified four accounts (root, sol, roy, user) involved in activity consistent with brute-force attacks conducted via SSH login attempts. The behavior is indicative of an automated attack originating from randomized IP addresses. The activity started on `2025-08-21 at 16:34:04.` 
 
 <img width="1467" height="783" alt="initial discovery" src="https://github.com/user-attachments/assets/3bf423e5-06ee-4148-b09a-c1e419aa0a3f" />
 
 #### Analyst Observation 2:
 
--	Further investigation identified a successful login to the root account at 17:10:08 from IP address 91[.]224[.]92[.]79. Compromise of a root account can have severe consequences due to the account possessing the highest level of system privileges.
+-	Further investigation identified a successful login to the root account at `17:10:08` from IP address `91[.]224[.]92[.]79`. Compromise of a root account can have severe consequences due to the account possessing the highest level of system privileges.
 
 <img width="1851" height="462" alt="succesful_root_logon" src="https://github.com/user-attachments/assets/de32bacb-10e1-4c04-9b41-984a6e354a06" />
 
@@ -32,11 +32,11 @@
 
 #### Filters Used:
 
-1)	cat /var/log/auth.log | grep ‘root’ | grep -E ‘useradd|passwd|usermod|userdel’
+1)	`cat /var/log/auth.log | grep ‘root’ | grep -E ‘useradd|passwd|usermod|userdel’`
 
-2)	cat /var/log/auth.log | grep -E ‘COMMAND=’
+2)	`cat /var/log/auth.log | grep -E ‘COMMAND=’`
 
-3)	cat /var/log/auth.log | grep -E ‘session opened|session closed’
+3)	`cat /var/log/auth.log | grep -E ‘session opened|session closed’`
 
 #### Analyst Observation:
 
